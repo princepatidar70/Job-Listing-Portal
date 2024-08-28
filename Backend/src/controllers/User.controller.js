@@ -1,4 +1,4 @@
-import User from '../Schema/User.schema'
+import User from '../schema/User.schema'
 export const getUser = async(req,res)=>{
 try {
     const user =await User.find()
